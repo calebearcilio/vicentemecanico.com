@@ -1,6 +1,4 @@
     </main>
     <footer>
-        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Vicente Mecânico. Todos os direitos reservados.</p>
     </footer>
-</body>
-</html>

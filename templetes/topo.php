@@ -1,9 +1,9 @@
     <header class="topo">
         <div class="logo">
-            <img src="img/Timao.png" alt="logo" class="img-logo">
-            <h1 class="titulo">VICENTE MECÂNICO</h1>
+            <a href="index.php"><img src="img/Timao.png" alt="logo" class="img-logo"></a>
+            <h1 class="titulo"><a href="index.php">VICENTE MECÂNICO</a></h1>
         </div>
         <div class="botoes">
-            <a href="?pg=acesso/form-login" class="login">Login</a>
-            <a href="?pg=acesso/form-cadastrar" class="cadastrar">Cadastrar-se</a>
+            <a href="?pg=acesso/form-login" class="link">Login</a>
+            <a href="?pg=acesso/form-cadastrar" class="link">Cadastrar-se</a>
         </div>
