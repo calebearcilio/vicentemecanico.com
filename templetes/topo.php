@@ -4,6 +4,12 @@
             <h1 class="titulo"><a href="index.php">VICENTE MECÂNICO</a></h1>
         </div>
         <div class="botoes">
-            <a href="?pg=acesso/form-login" class="link">Login</a>
-            <a href="?pg=acesso/form-cadastrar" class="link">Cadastrar-se</a>
-        </div>
+        <?php include_once("acesso/sessa.php");
+        if (logado()): ?>
+    <span class="link"><?= $_SESSION['nome_usuario'] ?></span>
+            <a href="acesso/logout.php" class="link">Sair</a>
+        <?php else: ?>
+            <a href="?pg=login/form-login" class="link">Login</a>
+            <a href="?pg=cadastrar/form-cadastrar" class="link">Cadastrar-se</a>
+        <?php endif;?>
+</div>
