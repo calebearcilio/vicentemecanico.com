@@ -2,32 +2,53 @@
     width: 50px;
     height: auto;
     float: left;
-    margin: 10px 2em 0 10px;
+    margin: 10px 20px;
 }
 
-header .botoes {
+.header .botoes {
     display: inline;
     float: right;
 }
 
-header .botoes a {
-    margin: 0px 15px;
+.header a {
+    color: #333333;
+    text-decoration: none;
 }
 
-header ul {
+.header .title-logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header .title-logo .vicente {
+    display: inline;
+    color: #FF0000;
+}
+
+.header .title-logo .mecanico {
+    display: inline;
+    color: #0056b3;
+}
+
+.menu ul {
+    padding-left: 12.5%;
     text-align: center;
 }
 
-header ul li {
+.menu ul li {
     display: inline;
     margin: 0 15px;
 }
 
-.link{
-    text-decoration: none;
+.menu .buttons-account-menu {
+    display: inline;
+    float: right;
+}
+
+.menu a {
     font-size: 18px;
 }
 
-.link:hover{
+.menu a:hover {
     color: #0056b3;
 }
