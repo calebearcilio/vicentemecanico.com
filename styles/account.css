@@ -48,3 +48,7 @@
 .link-account a:hover, .forgot-password a:hover {
     text-decoration: underline;
 }
+
+.warning-account {
+    color: orange;
+}
