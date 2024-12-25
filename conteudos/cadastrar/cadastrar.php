@@ -34,7 +34,7 @@ if ($senha != $confirmar_senha) {
 }
 
 
-$sql = "INSERT INTO usuarios (nome, email, senha, data_cadastro, acesso_admin) VALUES ('$usuario', '$email', '$senha', NOW(), 0)";
+$sql = "INSERT INTO usuarios (nome, email, senha, data_cadastro) VALUES ('$usuario', '$email', '$senha', NOW())";
 $query = mysqli_query($conexao, $sql);
 
 if ($query) {
