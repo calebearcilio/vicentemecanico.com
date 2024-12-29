@@ -1,5 +1,5 @@
 <?php 
-include_once("acesso/sessa.php");
+include_once("acesso/sessao.php");
 if (logado()) {
     echo "<script>alert('Você já está logado!'); window.location.href = 'index.php';</script>";
 }

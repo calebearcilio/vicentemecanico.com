@@ -1,11 +1,11 @@
         <nav class="menu">
             <ul>
-                <li><a href="index.php">Página inicial</a></li>
+                <li><a href="index.php">Página Inicial</a></li>
                 <li><a href="index.php?pg=produtos">Produtos</a></li>
                 <li><a href="index.php?pg=servicos">Serviços</a></li>
-                <li><a href="index.php?pg=contato">Contatos</a></li>
+                <li><a href="index.php?pg=contato/contato">Fale Conosco</a></li>
                 <div class="buttons-account-menu">
-<?php include_once("acesso/sessa.php");
+<?php include_once("acesso/sessao.php");
 if (logado()): ?>
                     <li class="buttom-account-menu"><a href="index.php?pg=carrinho/mostrar-carrinho">Carrinho</a>
                     <li class="buttom-account-menu"><a href="acesso/logout.php">Sair</a></li>

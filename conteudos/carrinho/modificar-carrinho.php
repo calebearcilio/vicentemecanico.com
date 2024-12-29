@@ -1,5 +1,5 @@
 <?php 
-include_once("../../acesso/sessa.php");
+include_once("../../acesso/sessao.php");
 if (!logado()) {
     header("Location: ../../index.php?pg=login/form-login");
     exit();

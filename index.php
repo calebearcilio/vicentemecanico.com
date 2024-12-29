@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/account.css">
     <link rel="stylesheet" href="styles/produtos.css">
+    <link rel="stylesheet" href="styles/contato.css">
     <title>Vicente Mecânico</title>
 </head>
 <body>

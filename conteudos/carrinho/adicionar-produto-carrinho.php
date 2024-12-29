@@ -1,5 +1,5 @@
 <?php
-include_once("../../acesso/sessa.php");
+include_once("../../acesso/sessao.php");
 
 //Verifica se está logado
 if (!logado()) {

@@ -1,15 +1,18 @@
 <?php 
 include_once("../../config.inc.php");
-include_once("../../acesso/sessa.php");
+include_once("../../acesso/sessao.php");
 
 //Verifica se o usuário já está logado
 if (logado()) {
+    mysqli_close($conexao);
     echo "<script>alert('Você já está logado'); window.location.href = 'index.php';</script>";
+    exit();
 }
 
 //Verifica se o formulário foi enviado
 if (!$_POST) {
     header("Location: ../../?pg=login/form-login");
+    mysqli_close($conexao);
     exit();
 }
 
@@ -31,15 +34,18 @@ if (mysqli_num_rows($query) > 0) {
         $_SESSION['data_cadastro']  = $dados_usuario['data_cadastro'];
 
         header("Location: ../../index.php");
+        mysqli_close($conexao);
         exit();
     } else {
         //Senha incorreta
         header("Location: ../../?pg=login/form-login&login=1");
+        mysqli_close($conexao);
         exit();
     }
 } else {
     //Usuário não existe
     header("Location: ../../?pg=login/form-login&login=2");
+    mysqli_close($conexao);
     exit();
 }
 
