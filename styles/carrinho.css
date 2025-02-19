@@ -1,0 +1,31 @@
+.carrinho-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.carrinho-table th,
+.carrinho-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.carrinho-table th {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.carrinho-form {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.carrinho-form input,
+.carrinho-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}

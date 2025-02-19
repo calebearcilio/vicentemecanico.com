@@ -15,7 +15,7 @@ if (logado()) {
                     <input class="input-account" type="password" name="senha" id="senha" placeholder="Senha" required>
                 </div>
                 <div class="forgot-password">
-                    <a href="?pg=forgot-password/form-forgot-password">Esqueceu a senha?</a>
+                    <a href="">Esqueceu a senha?</a>
                 </div>
                 <button class="buttom-account" type="submit">ENTRAR</button>
                 <p class="link-account">Não possui conta? <a href="?pg=cadastrar/form-cadastrar">Cadastre-se</a></p>

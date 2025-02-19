@@ -1,0 +1,59 @@
+.container-admin {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.admin-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.admin-button {
+  display: block;
+  padding: 20px;
+  background-color: #6c63ff;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.admin-button:hover {
+  background-color: #5349d6;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.admin-form {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.admin-form input,
+.admin-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}

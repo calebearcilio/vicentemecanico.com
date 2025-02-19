@@ -1,32 +1,34 @@
 #contato {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .label-contato {
-    margin-top: 10px;
-    font-weight: bold;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
-.input-contato, .textarea-contato, .button-contato {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.input-contato,
+.textarea-contato,
+.button-contato {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .textarea-contato {
-    resize: none;
+  resize: none;
 }
 
 .button-contato {
-    background-color: #0056b3;
-    color: #fff;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .button-contato:hover {
-    background-color: #004080;
+  background-color: #004080;
 }

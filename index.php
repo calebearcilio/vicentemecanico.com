@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/Timao.ico">
-    <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/account.css">
-    <link rel="stylesheet" href="styles/produtos.css">
-    <link rel="stylesheet" href="styles/contato.css">
-    <title>Vicente Mecânico</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/Timao.ico">
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/account.css">
+  <link rel="stylesheet" href="styles/produtos.css">
+  <link rel="stylesheet" href="styles/contato.css">
+  <link rel="stylesheet" href="styles/admin.css">
+  <link rel="stylesheet" href="styles/carrinho.css">
+  <title>Vicente Mecânico</title>
 </head>
+
 <body>
-<?php
+  <?php
 include_once("templetes/topo.php");
 include_once("templetes/menu.php");
 
@@ -27,4 +31,5 @@ if (empty($_SERVER['QUERY_STRING'])) {
 include_once("templetes/rodape.php");
 ?>
 </body>
+
 </html>
