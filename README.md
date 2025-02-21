@@ -31,7 +31,7 @@ Desenvolvimento de um site destinado a oficina mecânica, com sistema de gerenci
 2. Crie um novo banco de dados chamado `vicentemecanico`
 3. Selecione o banco de dados criado
 4. Vá na aba "Importar"
-5. Clique em "Escolher arquivo" e selecione o arquivo `banco_de_dados.sql` da pasta do projeto
+5. Clique em "Escolher arquivo" e selecione o arquivo `BDvicentemecanico.sql` da pasta do projeto
 6. Clique em "Executar"
 
 ### 4. Configurando a Conexão
