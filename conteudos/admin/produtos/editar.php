@@ -4,8 +4,8 @@ verificar_admin();
 include_once("config.inc.php");
 
 if (!isset($_GET['id'])) {
-    header("Location: index.php?pg=admin/produtos");
-    exit();
+  header("Location: index.php?pg=admin/produtos");
+  exit();
 }
 
 $id = intval($_GET['id']);
@@ -13,8 +13,8 @@ $sql = "SELECT * FROM produtos WHERE id = $id";
 $query = mysqli_query($conexao, $sql);
 
 if (mysqli_num_rows($query) === 0) {
-    header("Location: index.php?pg=admin/produtos");
-    exit();
+  header("Location: index.php?pg=admin/produtos");
+  exit();
 }
 
 $produto = mysqli_fetch_array($query);

@@ -30,7 +30,7 @@ $query = mysqli_query($conexao, $sql);
         <td><?= $usuario['acesso_admin'] ? 'Sim' : 'Não' ?></td>
         <td>
           <a href="?pg=admin/usuarios/editar&id=<?= $usuario['id'] ?>">Editar</a> |
-          <a href="?pg=admin/usuarios/excluir&id=<?= $usuario['id'] ?>"
+          <a href="conteudos/admin/usuarios/excluir.php?id=<?= $usuario['id'] ?>"
             onclick="return confirm('Tem certeza que deseja excluir este usuário?')">Excluir</a>
         </td>
       </tr>

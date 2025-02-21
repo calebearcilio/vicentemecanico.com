@@ -27,7 +27,7 @@ $query = mysqli_query($conexao, $sql);
         <td><?= htmlspecialchars($mensagem['assunto']) ?></td>
         <td><?= nl2br(htmlspecialchars($mensagem['mensagem'])) ?></td>
         <td>
-          <a href="?pg=admin/mensagens/excluir&id=<?= $mensagem['id'] ?>"
+          <a href="conteudos/admin/mensagens/excluir.php?id=<?= $mensagem['id'] ?>"
             onclick="return confirm('Tem certeza que deseja excluir esta mensagem?')">Excluir</a>
         </td>
       </tr>

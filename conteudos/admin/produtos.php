@@ -30,7 +30,7 @@ $query = mysqli_query($conexao, $sql);
         <td><?= htmlspecialchars($produto['categoria']) ?></td>
         <td>
           <a href="?pg=admin/produtos/editar&id=<?= $produto['id'] ?>">Editar</a> |
-          <a href="?pg=admin/produtos/excluir&id=<?= $produto['id'] ?>"
+          <a href="conteudos/admin/produtos/excluir.php?id=<?= $produto['id'] ?>"
             onclick="return confirm('Tem certeza que deseja excluir este produto?')">Excluir</a>
         </td>
       </tr>
